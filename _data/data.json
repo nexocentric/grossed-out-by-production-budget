@@ -1,0 +1,106 @@
+{
+	"data": [
+		{
+			"title": "Toy Story",
+			"release_date": "1995-11-22",
+			"budget": "30",
+			"worldwide_gross": "373.6"
+		},
+		{
+			"title": "A Bug's Life",
+			"release_date": "1998-11-25",
+			"budget": "120",
+			"worldwide_gross": "363.3"
+		},
+		{
+			"title": "Toy Story 2",
+			"release_date": "1999-11-24",
+			"budget": "90",
+			"worldwide_gross": "497.4"
+		},
+		{
+			"title": "Monsters, Inc.",
+			"release_date": "2001-11-02",
+			"budget": "115",
+			"worldwide_gross": "525.4"
+		},
+		{
+			"title": "Finding Nemo",
+			"release_date": "2003-05-30",
+			"budget": "94",
+			"worldwide_gross": "867.9"
+		},
+		{
+			"title": "The Incredibles",
+			"release_date": "2004-11-05",
+			"budget": "92",
+			"worldwide_gross": "633.0"
+		},
+		{
+			"title": "Cars",
+			"release_date": "2006-06-09",
+			"budget": "120",
+			"worldwide_gross": "462.2"
+		},
+		{
+			"title": "Ratatouille",
+			"release_date": "2007-06-29",
+			"budget": "150",
+			"worldwide_gross": "620.7"
+		},
+		{
+			"title": "WALL-E",
+			"release_date": "2008-06-27",
+			"budget": "180",
+			"worldwide_gross": "533.3"
+		},
+		{
+			"title": "Up",
+			"release_date": "2009-05-29",
+			"budget": "175",
+			"worldwide_gross": "735.1"
+		},
+		{
+			"title": "Toy Story 3",
+			"release_date": "2010-06-18",
+			"budget": "200",
+			"worldwide_gross": "1067.0"
+		},
+		{
+			"title": "Cars 2",
+			"release_date": "2011-06-24",
+			"budget": "200",
+			"worldwide_gross": "562.1"
+		},
+		{
+			"title": "Brave",
+			"release_date": "2012-06-22",
+			"budget": "185",
+			"worldwide_gross": "540.4"
+		},
+		{
+			"title": "Monsters University",
+			"release_date": "2013-06-21",
+			"budget": "200",
+			"worldwide_gross": "744.2"
+		},
+		{
+			"title": "Inside Out",
+			"release_date": "2015-06-19",
+			"budget": "175",
+			"worldwide_gross": "857.6"
+		},
+		{
+			"title": "The Good Dinosaur",
+			"release_date": "2015-11-25",
+			"budget": "200",
+			"worldwide_gross": "332.2"
+		},
+		{
+			"title": "Finding Dory",
+			"release_date": "2016-06-17",
+			"budget": "200",
+			"worldwide_gross": "1021.1"
+		}
+	]
+}

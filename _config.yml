@@ -1,0 +1,56 @@
+# Site settings
+title: Nexocentric Studios
+email: dodzidenu.dzakuma@nexocentric.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+timezone: America/Chicago
+url: "http://www.nexocentric.com" # the base hostname & protocol for your site
+twitter_username: nexocentric
+github_username: nexocentric
+linked_in_profile: https://www.linkedin.com/in/dodzidzakuma
+highlighter: pygments
+permalink: /blog/:title/
+future: false #don't post post that were made with a future date
+revision_number: 0.1.0
+
+#hosting
+host: 0.0.0.0
+
+#exclusions
+exclude: [mockups, workspaces]
+
+# Build settings
+kramdown:
+  input: GFM
+
+# styles
+main_stylesheet: stylesheets/main.css
+
+#available javascript files
+livejs: <script type="text/javascript" src="javascripts/live.js"></script>
+
+#jquery related
+jquery: javascripts/vendor/jquery.js
+
+#vendor (included with foundation)
+fastclick: javascripts/vendor/fastclick.js
+jquery_cookie: javascripts/vendor/jquery.cookie.js
+modernizr: javascripts/vendor/modernizr.js
+placeholder: javascripts/vendor/placeholder.js
+
+#cdn resources
+cdn:
+  js:
+    d3: <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+    jquery: <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    foundation: <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.0/foundation.min.js"></script>
+    motion-ui: <script src="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.2.2/motion-ui.min.js"></script>
+    what-input: <script src="https://cdnjs.cloudflare.com/ajax/libs/what-input/2.0.1/what-input.min.js"></script>
+    live: <script src="https://cdn.jsdelivr.net/livejs/4/live.js"></script>
+    marked: <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.5/marked.min.js"></script>
+    spin: <script src="https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.3.2/spin.min.js"></script>
+  css:
+motion-ui: <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.2.2/motion-ui.min.css">
