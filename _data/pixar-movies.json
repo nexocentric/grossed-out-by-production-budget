@@ -1,0 +1,106 @@
+{
+	"data": [
+		{
+			"title": "Toy Story",
+			"releaseDate": "1995-11-22",
+			"budget": "30",
+			"worldwideGross": "373.6"
+		},
+		{
+			"title": "A Bug's Life",
+			"releaseDate": "1998-11-25",
+			"budget": "120",
+			"worldwideGross": "363.3"
+		},
+		{
+			"title": "Toy Story 2",
+			"releaseDate": "1999-11-24",
+			"budget": "90",
+			"worldwideGross": "497.4"
+		},
+		{
+			"title": "Monsters, Inc.",
+			"releaseDate": "2001-11-02",
+			"budget": "115",
+			"worldwideGross": "525.4"
+		},
+		{
+			"title": "Finding Nemo",
+			"releaseDate": "2003-05-30",
+			"budget": "94",
+			"worldwideGross": "867.9"
+		},
+		{
+			"title": "The Incredibles",
+			"releaseDate": "2004-11-05",
+			"budget": "92",
+			"worldwideGross": "633.0"
+		},
+		{
+			"title": "Cars",
+			"releaseDate": "2006-06-09",
+			"budget": "120",
+			"worldwideGross": "462.2"
+		},
+		{
+			"title": "Ratatouille",
+			"releaseDate": "2007-06-29",
+			"budget": "150",
+			"worldwideGross": "620.7"
+		},
+		{
+			"title": "WALL-E",
+			"releaseDate": "2008-06-27",
+			"budget": "180",
+			"worldwideGross": "533.3"
+		},
+		{
+			"title": "Up",
+			"releaseDate": "2009-05-29",
+			"budget": "175",
+			"worldwideGross": "735.1"
+		},
+		{
+			"title": "Toy Story 3",
+			"releaseDate": "2010-06-18",
+			"budget": "200",
+			"worldwideGross": "1067.0"
+		},
+		{
+			"title": "Cars 2",
+			"releaseDate": "2011-06-24",
+			"budget": "200",
+			"worldwideGross": "562.1"
+		},
+		{
+			"title": "Brave",
+			"releaseDate": "2012-06-22",
+			"budget": "185",
+			"worldwideGross": "540.4"
+		},
+		{
+			"title": "Monsters University",
+			"releaseDate": "2013-06-21",
+			"budget": "200",
+			"worldwideGross": "744.2"
+		},
+		{
+			"title": "Inside Out",
+			"releaseDate": "2015-06-19",
+			"budget": "175",
+			"worldwideGross": "857.6"
+		},
+		{
+			"title": "The Good Dinosaur",
+			"releaseDate": "2015-11-25",
+			"budget": "200",
+			"worldwideGross": "332.2"
+		},
+		{
+			"title": "Finding Dory",
+			"releaseDate": "2016-06-17",
+			"budget": "200",
+			"worldwideGross": "1021.1"
+		}
+	]
+}

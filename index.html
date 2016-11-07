@@ -5,8 +5,15 @@
 <head>
 	<meta charset="UTF-8">
 	<title>{{ site.title }} - Pixar Movie Budget vs Earnings Analysis</title>
+	{{ site.cdn.js.live }}
+	<script>var pixarMovies = {{ site.data.pixar-movies | jsonify }};</script>
 </head>
 <body>
 	<p>There is something here.</p>
+
+	<div id="infograph"></div>
+
+	{{ site.cdn.js.d3 }}
+	<script src="/javascripts/visualization.js"></script>
 </body>
 </html>
