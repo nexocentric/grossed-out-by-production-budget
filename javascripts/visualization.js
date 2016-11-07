@@ -1,7 +1,7 @@
-var dataOffset = 40;
-var maxBoxSize = 30;
 var movieBudgets = groupData(pixarMovies.data, "budget");
 var movieGrosses = groupData(pixarMovies.data, "worldwideGross");
+var dataOffset = 40;
+var maxBoxSize = 30;
 
 function groupData(data, property) {
 	dataArray = new Array(data.length);
@@ -26,14 +26,39 @@ var budgetScale = d3.scaleLinear()
 	.range([3, maxBoxSize])
 ;
 
-var chart = d3.select("#infograph").append("svg")
+var infographic = d3.select("#infograph")
+	.append("svg")
 	.attr("width", 200)
-	.attr("height", 500)
+	.attr("height", 1100)
 	.style("background", "lightblue")
 ;
-	
-chart.selectAll(".gross-profit").data(pixarMovies.data)
-	.enter().append("rect").classed("gross-profit", true)
+
+var svgGroupElements = infographic.selectAll("g").data(pixarMovies.data)
+	.enter()
+	.append("g").attr("id", function(data){ return data.id; })
+;
+
+// svgGroupElements.each(function(data) {
+// 	d3.select("#" + data.id)
+// 	.enter()
+// 	.append("rect").classed("gross-profit", true)
+// 	.style("fill", "black")
+// 	.style("opacity", .1)
+// 	.attr("width", function(data) {
+// 		return (budgetScale(data.worldwideGross) / maxBoxSize) * 100;
+// 	})
+// 	.attr("height", function(data) {
+// 		return (budgetScale(data.worldwideGross) / maxBoxSize) * 100;
+// 	})
+// 	.attr("x", 20)
+// 	.attr("y", function(data, index) {
+// 		return index * (20 + dataOffset);
+// 	})
+// });
+
+infographic.data(pixarMovies.data).selectAll("rect")
+	.enter()
+	.append("rect").classed("gross-profit", true)
 	.style("fill", "black")
 	.style("opacity", .1)
 	.attr("width", function(data) {
@@ -48,7 +73,7 @@ chart.selectAll(".gross-profit").data(pixarMovies.data)
 	})
 ;
 
-chart.selectAll(".allocated-budget").data(pixarMovies.data)
+infographic.selectAll(".allocated-budget").data(pixarMovies.data)
 	.enter().append("rect")
 	.style("fill", "orange")
 	.attr("width", function(data) {
@@ -68,5 +93,18 @@ chart.selectAll(".allocated-budget").data(pixarMovies.data)
 		tooltip.html(data.releaseDate)
 			.style("left", (d3.event.pageX) + "px")
 			.style("top",  (d3.event.pageY) + "px");
+	})
+;
+
+infographic.selectAll(".movie-title").data(pixarMovies.data)
+	.enter().append("text").classed("movie-title", true)
+	.style("fill", "black")
+	.style("font-family", "sans-serif")
+	.style("font-size", 15)
+	.style("fill", "green")
+	.html(function(data) { return data.title; })
+	.attr("x", 20)
+	.attr("y", function(data, index) {
+		return index * (20 + dataOffset);
 	})
 ;
