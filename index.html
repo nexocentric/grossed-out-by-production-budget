@@ -6,6 +6,14 @@
 	<meta charset="UTF-8">
 	<title>{{ site.title }} - Pixar Movie Budget vs Earnings Analysis</title>
 	{{ site.cdn.js.live }}
+
+	<!-- 
+	data utiilzied by the visualization was acquired from
+	https://en.wikipedia.org/wiki/List_of_Pixar_films
+	and is used for the purposes of remixing according
+	to the guidelines set forth on
+	https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
+	 -->
 	<script>var pixarMovies = {{ site.data.pixar-movies | jsonify }};</script>
 </head>
 <body>
