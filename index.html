@@ -14,13 +14,20 @@
 	to the guidelines set forth on
 	https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
 	 -->
-	<script>var pixarMovies = {{ site.data.pixar-movies | jsonify }};</script>
+	 <style>
+	 	.bar {
+	 		color: red;
+	 		background: blue;
+	 	}
+	 </style>
 </head>
 <body>
-	<p>There is something here.</p>
 
-	<div id="infograph"></div>
+	<div id="visualization">
+		<svg id="visualization-canvas"></svg>
+	</div>
 
+	{{ site.cdn.js.jquery }}
 	{{ site.cdn.js.d3 }}
 	<script src="/javascripts/visualization.js"></script>
 </body>
